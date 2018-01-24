@@ -1,0 +1,36 @@
+<nav class="navbar navbar-light shadow-bottom d-flex flex-row">
+    <form class="navbar-form navbar-left p-2">
+        <div class="form-inline" style="margin-left: 10px; padding-left:10px;">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    </form>
+    <div class="p-2 ml-auto">
+        <a class="navbar-brand" href="#">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Cart (0)
+        </a>
+        <a class="navbar-brand" href="#">Check out</a>
+    </div>    
+</nav>
+
+<div class="col-md-12 d-flex flex-row" style="padding:0px;">
+    <div class="col-sm-3">
+        <div class="d-flex flex-column">
+            <h1>Simple.</h1>
+            <a class="shadow-both">Home</a>
+            <a class="shadow-bottom">Accessories</a>
+            <a class="shadow-bottom">Denim</a>
+            <a class="shadow-bottom">Footwear</a>
+            <a class="shadow-bottom">Jeans</a>
+            <a class="shadow-bottom">Outerwear</a>
+            <a class="shadow-bottom">Pants</a>
+            <a class="shadow-bottom">Shirts</a>
+            <a class="shadow-bottom">T-shirts</a>
+            <a class="shadow-bottom">Shorts</a>
+        </div>
+    </div>
+    <div class="col-sm-9">
+        <router-outlet></router-outlet>
+    </div>
+</div>
